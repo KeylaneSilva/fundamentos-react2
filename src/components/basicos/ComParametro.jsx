@@ -6,7 +6,6 @@ export default function ComParametro(props) {
 
     return (
         <div>
-            <hr />
             <h2>
                 Olá  
                 <strong> { props.aluno } </strong>

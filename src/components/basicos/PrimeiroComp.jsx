@@ -1,10 +1,9 @@
 import React from 'react'
 
-export default function PrimeiroComp() {
-    let msg = 'Escola Municipal KeylaneDev'
+export default function PrimeiroComp(props) {
     return (
         <div>
-            <h1>{ msg }</h1>
+            <h1 style={{textAlign: 'center'}}>{ props.msg }</h1>
         </div>
     )
 }
