@@ -9,10 +9,11 @@ export default function Aleatorio(props) {
         const num = Math.floor(Math.random()*(max-min)+min)
         // setando no h2
         const res = document.getElementById('numero').innerHTML = num
-
     }
     return (
         <div>
+            <h3>Numero minimo: {props.min} </h3>
+            <h3>Numero maximo: {props.max} </h3>
             <h2>Numero aleatorio: <span id="numero">0</span> </h2>
             <button onClick={gerarNumero}>Gerar número</button>
         </div>
