@@ -6,6 +6,7 @@ import Familia from './components/basicos/Familia'
 import MembrosFamilia from './components/basicos/MembrosFamilia'
 import Repeticao1 from './components/repeticao/Repeticao1'
 import RepeticaoProd from './components/repeticao/RepeticaoProd'
+import ImpaPar from './components/condicional/ImpaPar'
 import './App.css'
 
 // usando arrow function av
@@ -15,8 +16,12 @@ export default _ =>
                     msg='Fundamentos React'
                 />
             <div className="CardConf">
+                <Card titulo="#07 Condicional">
+                    <ImpaPar numero='122'/>
+                </Card>
+                
                 <Card 
-                    titulo="Desafio #5" color="#035">
+                    titulo="#06 Desafio Repetição" color="#035">
                     <RepeticaoProd />
                 </Card>
                 <Card 
