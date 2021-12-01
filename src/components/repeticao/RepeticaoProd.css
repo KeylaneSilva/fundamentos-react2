@@ -1,0 +1,20 @@
+table{
+    margin: 20px 15%;    
+    border-collapse: collapse; 
+    padding-inline: 20px;
+
+    width: 50%;
+    min-width: 300px;
+    /* margin: auto; */
+    
+}
+
+table, td, th {
+    border-top: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background:rgb(240,248,255);
+}
+
+/* Largura (width) em 50%, min-width de 300px, e com margin auto; */
