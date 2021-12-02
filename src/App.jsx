@@ -7,6 +7,7 @@ import MembrosFamilia from './components/basicos/MembrosFamilia'
 import Repeticao1 from './components/repeticao/Repeticao1'
 import RepeticaoProd from './components/repeticao/RepeticaoProd'
 import ImpaPar from './components/condicional/ImpaPar'
+import UsusarioInfo from './components/condicional/UsusarioInfo'
 import './App.css'
 
 // usando arrow function av
@@ -16,8 +17,13 @@ export default _ =>
                     msg='Fundamentos React'
                 />
             <div className="CardConf">
+
                 <Card titulo="#07 Condicional">
                     <ImpaPar numero='122'/>
+                    <ImpaPar numero='87'/>
+                    <UsusarioInfo usuario={{nome: 'Keylane'}} />
+                    <UsusarioInfo usuario={{email: 'keylane@gmail.com'}} />
+
                 </Card>
                 
                 <Card 
