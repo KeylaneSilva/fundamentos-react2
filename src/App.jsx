@@ -8,6 +8,7 @@ import Repeticao1 from './components/repeticao/Repeticao1'
 import RepeticaoProd from './components/repeticao/RepeticaoProd'
 import ImpaPar from './components/condicional/ImpaPar'
 import UsusarioInfo from './components/condicional/UsusarioInfo'
+import DiretaPai from './components/comunicacao/DiretaPai'
 import './App.css'
 
 // usando arrow function av
@@ -18,6 +19,9 @@ export default _ =>
                 />
             <div className="CardConf">
 
+                <Card titulo="#08 Comunicação direta" color="#035">
+                    <DiretaPai />
+                </Card>
                 <Card titulo="#07 Condicional">
                     <ImpaPar numero='122'/>
                     <ImpaPar numero='87'/>

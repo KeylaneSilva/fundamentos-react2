@@ -21,7 +21,6 @@ export default function RepeticaoProd() {
         document.getElementById('total').innerHTML = acm.toFixed(2)
     }
 
-
     return (
         <div>
             <table>
