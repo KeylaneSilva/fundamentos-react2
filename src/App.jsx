@@ -9,6 +9,7 @@ import RepeticaoProd from './components/repeticao/RepeticaoProd'
 import ImpaPar from './components/condicional/ImpaPar'
 import UsusarioInfo from './components/condicional/UsusarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
+import IndiretaPai from './components/comunicacao/IndiretaPai'
 import './App.css'
 
 // usando arrow function av
@@ -18,7 +19,9 @@ export default _ =>
                     msg='Fundamentos React'
                 />
             <div className="CardConf">
-
+                <Card titulo="#08 Comunicação indireta" color="#035">
+                    <IndiretaPai />
+                </Card>
                 <Card titulo="#08 Comunicação direta" color="#035">
                     <DiretaPai />
                 </Card>
