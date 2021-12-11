@@ -12,6 +12,7 @@ import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import './App.css'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
 
 // usando arrow function av
 export default _ => 
@@ -20,6 +21,10 @@ export default _ =>
                     msg='Fundamentos React'
                 />
             <div className="CardConf">
+                <Card titulo="#11 
+                Contador" color="#015">
+                    <Contador />
+                </Card>
                 <Card titulo="#10 Componente controlado" color="#015">
                     <Input />
                 </Card>
