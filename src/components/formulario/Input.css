@@ -1,0 +1,12 @@
+.Input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Input input{
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+}
