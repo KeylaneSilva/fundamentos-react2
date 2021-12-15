@@ -5,8 +5,7 @@ import BotoesMega from './BotoesMega'
 
 export default function Mega() {
     
-    const [numeros, setNumeros] = useState([])
-    const [newNumeros, setNewNumeros] = useState([])  
+    const [numeros, setNumeros] = useState([]) 
     const [qtd, setQtd] = useState(0)
 
     // capturando quantidade
@@ -37,7 +36,9 @@ export default function Mega() {
             
         }
         // console.log(numeros)
-    }        
+    }
+    
+    numeros.splice('-')
     
     return (
         <div>
