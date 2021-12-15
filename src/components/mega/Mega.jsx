@@ -38,7 +38,6 @@ export default function Mega() {
         // console.log(numeros)
     }
     
-    numeros.splice('-')
     
     return (
         <div>
