@@ -8,6 +8,7 @@ export default function Contador() {
     const [numero, setNumero] = useState(0)
     const [valor, setValor] = useState(0)
     
+    // retonando valor do input do formulário
     function pegarNumero(valor){
         setValor(valor)
     }
@@ -24,6 +25,7 @@ export default function Contador() {
             Contador
             <Display numero={numero}/>
             <PassoForm pegar={pegarNumero}/>
+            {/* passando funções para os botões */}
             <Botoes soma={adicionar} sub={subtrair}/>
         </div>
     )

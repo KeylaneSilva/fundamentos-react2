@@ -13,6 +13,7 @@ import IndiretaPai from './components/comunicacao/IndiretaPai'
 import './App.css'
 import Input from './components/formulario/Input'
 import Contador from './components/contador/Contador'
+import Mega from './components/mega/Mega.jsx'
 
 // usando arrow function av
 export default _ => 
@@ -21,11 +22,15 @@ export default _ =>
                     msg='Fundamentos React'
                 />
             <div className="CardConf">
-                <Card titulo="#11 
-                Contador" color="#015">
+                <Card titulo="#12 
+                Desafio da Mega Sena" color="#356">
+                    <Mega />
+                </Card>
+                 <Card titulo="#11 
+                Contador" color="#666">
                     <Contador />
                 </Card>
-                <Card titulo="#10 Componente controlado" color="#015">
+                <Card titulo="#10 Componente controlado" color="#785">
                     <Input />
                 </Card>
                 
